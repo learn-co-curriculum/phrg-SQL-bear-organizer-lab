@@ -56,7 +56,7 @@ Get the tests in `spec/create_spec.rb` to pass. Your `CREATE` statement should l
 
 ```sql
 CREATE TABLE bears (
-  //columns here
+  /* columns here */
 );
 ```
 
@@ -67,7 +67,7 @@ Your columns should be the following types:
 |id     |integer| <-- Make sure this is the table's primary key
 |name   |text   |
 |age    |integer|
-|gender |char(1)(The choices would be "M" or "F")|
+|gender |char(1) /* The choices would be "M" or "F" */|
 |color  |text   |
 |temperament|text|
 |alive  |boolean|
